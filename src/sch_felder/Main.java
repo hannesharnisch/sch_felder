@@ -19,6 +19,10 @@ public class Main {
 		System.out.println(max);
 		System.out.println(sum);
 		System.out.println(mean);
+		feld.printarray(a);
+		a = feld.zufallListe();
+		feld.printarray(a);
+		
 	}
 
 }
